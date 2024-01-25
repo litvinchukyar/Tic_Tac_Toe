@@ -78,7 +78,7 @@ while True:
     if (query-1)%2==0:
         game_over = check(mas,"x")
     else:
-        game_over = check(mas,"y")
+        game_over = check(mas,"o")
     if game_over:
         screen.fill(black)
         font = pygame.font.SysFont("arial", 100)
